@@ -15,7 +15,7 @@ body {
     height: 785px;
     margin-top: 35px;
     border-bottom: 5px solid #4aaaa5; /*This add the teal color above the footer*/
-    background-image: url("../../assets/images/dust_scratches.jpeg"); /*HOW DO I GET THE IMAGE TO STAY WITHIN THE WRAPPER???*/
+    background-image: url("../../assets/images/dust_scratches.jpeg");
     position: relative;
     top: -36px;
 }
@@ -25,19 +25,12 @@ body {
     margin: 0 auto;
     margin-top: -35px;
     background-color: #ffffff;
-    position: absolute;
-    top: 76px;
-    right: 154px;
-    
 }
 
 /* HEADER STYLES */
 
 header {
     border-bottom: 2px solid #DADADA;
-}
-
-.top-info {
     width: 960px;
     margin: 0 auto;
     background-color: #ffffff;
@@ -76,36 +69,12 @@ a:hover {
     color: black;
 }
 
-/* ABOUT ME SECTION STYLES */
+/* FORM SECTION STYLES */
 
-.main-content {
-    padding-left: 20px;
-    margin-top: 35px;
-}
-
-h2 {
-    color: #4aaaa5;
-    font-weight: bolder;
-    margin-bottom: 20px;
-}
 
 hr {
     border-top: 2px solid #EFEFEF;
     margin-bottom: 30px;
-}
-
-img {
-    float: left;
-    padding-right: 20px;
-}
-
-.main-content p {
-    line-height: 25px;
-}
-
-.second-blurb, .third-blurb {
-    clear: both;
-    margin-top: 25px;
 }
 
 /* FOOTER STYLES */

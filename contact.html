@@ -3,40 +3,49 @@
 
 <head>
     <title>Contact</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contact-style.css">
     <meta charset="UTF-8">
     <meta lang="en-us">
 </head>
 
 <body>
-    <section class="container">
-        <header>
+    <header>
             <h1>Richard Tutalo</h1>
-            <ul>
-                <li><a class="about" href="index.html">About</a></li>
-                <li><a class="portfolio" href="portfolio.html">Portfolio</a></li>
+            <ul class="contact-links">
+                <li><a class="about" href="index.html">About |</a></li>
+                <li><a class="portfolio" href="portfolio.html">Portfolio |</a></li>
                 <li><a class="contact" href="contact.html">Contact</a></li>
             </ul>
         </header>
-        <section class="contact-form">
-            <h3>Contact</h3>
-            <hr>
-            <form action="#">
-                <div>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="John Smith">
-                </div>
-                <div>
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="example@mail.com">
-                </div>
-                <div>
-                    <label for="msg">Message:</label>
-                    <textarea name="user_message" id="msg"></textarea>
-                </div>
-            </form>
+    <div class="wrapper">
+        <section class="container">
+            <section class="contact-form">
+                <h3>Contact</h3>
+                <hr>
+                <form action="#">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="John Smith">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="example@mail.com">
+                    </div>
+                    <div>
+                        <label for="msg">Message:</label>
+                        <textarea name="user_message" id="msg"></textarea>
+                    </div>
+                </form>
+            </section>
         </section>
-    </section>
+    </div>
+    <footer>
+        <div>
+            <p>
+                Copyright&copy;
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
