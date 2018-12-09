@@ -108,6 +108,8 @@ label {
 input {
     display: inline-block;
     width: 877px;
+    font-size: 18px;
+    padding: 4px;
     margin-bottom: 10px;
 }
 
@@ -122,6 +124,8 @@ textarea {
     
     margin-bottom: 10px;
     background-color: #4aaaa5;
+    width: 67px;
+    padding: 5px 10px 5px 10px;
     border-radius: 2px;
     color: #fff;
 }
